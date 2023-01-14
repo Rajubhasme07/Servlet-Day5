@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fashion Cloth</title>
+<style>
+body{
+margin-top:120px;
+background-image: url("img/displayimg.png");
+
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.front{
+ background:White;
+ padding-top: 50px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  padding-left:80px;
+
+}
+
+
+</style>
+</head>
+<body>
+<div class="front">
+<center>
+<h1><b>CUSTOMER DETAILS</b></h1>
+<form action="stockupdate" >
+  <label for="fname">Name:</label>
+<input type="text" name="cname"  class="Field a1" placeholder="Enter Customer Name" required><br><br><br>
+ <label for="fname">Email:</label>
+<input type="email" name="cemail"  class="Field a2" placeholder="Enter Customer Email" required><br><br><br>
+ <label for="fname">Product:</label>
+<input type="text" name="cpro" class="Field a3" placeholder="Enter Purchased Product" required><br><br><br>
+ <label for="fname">Date:</label>
+<input type="date" name="pdate"  class="Field a4" placeholder=" Enter Date" required><br><br><br>
+
+<input type="submit" values="ADD CUSTOMER" class="button"> 
+</center>
+</div>
+
+</body>
+</html>
